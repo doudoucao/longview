@@ -2,7 +2,7 @@
 
 ## Checklist
 
-- [ ] Confirm final report audience and depth preference with the user.
+- [x] Confirm final report audience and depth preference with the user: reports and intermediate notes should be written in Chinese, with deeper source-level research.
 - [x] Gather current sources from primary documentation, public filings/regulators, research papers, technical blogs, GitHub repositories, reputable market/industry analysis, product docs, and relevant open-source implementations.
 - [x] Create `sources/index.md` and preserve intermediate raw materials or source notes under the task's `sources/` directory.
 - [x] Create structured source notes with source type, access date, saved form, claims, data acquisition method, related agent skill/tool, limitations, and confidence.
@@ -14,6 +14,13 @@
 - [x] Define Longview's evidence rubric and claim-verification workflow.
 - [x] Propose a Longview operating model and MVP roadmap.
 - [x] Review for citation coverage, raw-material coverage, stale claims, compliance boundaries, and unmarked inference.
+- [x] Run a second deep-dive collection pass over high-value papers, GitHub repositories, official samples, and code-level workflow examples.
+- [x] Save second-wave raw materials under `sources/raw/deep-dive/`.
+- [x] Write Chinese deep-dive notes for every second-wave high-value source in `sources/notes/deep-dive-source-notes.md`.
+- [x] Rewrite first-wave per-source notes in Chinese so formal intermediate notes are not left as English-only artifacts.
+- [x] Create `deep-dive-synthesis.md` as the second-wave bridge between raw materials and the final report.
+- [x] Rewrite `research.md` as a Chinese formal deep-dive report incorporating first- and second-wave evidence.
+- [x] Update `sources/index.md` with second-wave commands, raw files, high-value sources, artifacts, limitations, and note paths.
 
 ## Validation
 
@@ -24,6 +31,9 @@
 - The final report includes data acquisition, skills/tooling, and workflow automation tables.
 - The final report separates product recommendations from investment advice.
 - The report includes explicit limitations and unresolved questions.
+- Formal reports and formal intermediate notes for this task are in Chinese.
+- Every second-wave high-value source has a Chinese note and a saved raw artifact or explicit saved search/read output.
+- Deep-dive raw files are indexed and linked from `sources/index.md`.
 
 ## Risky Areas
 

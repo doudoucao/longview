@@ -68,6 +68,13 @@ For agent automation investment research tasks, include:
 - State assumptions explicitly.
 - Preserve uncertainty instead of smoothing it away.
 
+## Language Requirements
+
+- If the user requests Chinese research output, write all formal research reports, source notes, intermediate notes, synthesis files, and task-facing summaries in Chinese.
+- Preserve original source titles, paper IDs, repository names, commands, URLs, and technical identifiers in their original language when translation would reduce traceability.
+- Do not leave English scratch notes as the only formal intermediate artifact. If an English capture or draft exists, add or replace it with a Chinese source note before treating the task as complete.
+- User-facing final summaries for PRs or task updates should follow the user's requested language unless the user explicitly asks otherwise.
+
 ## Review Checklist
 
 Before considering a report done:
@@ -79,3 +86,4 @@ Before considering a report done:
 - Contradictions or weak evidence are visible.
 - Recommendations target Longview's product/research process, not a reader's personal portfolio.
 - The report can be used to create follow-up Trellis tasks.
+- The language of formal notes and reports matches the user's explicit language preference.

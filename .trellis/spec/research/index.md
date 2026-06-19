@@ -27,4 +27,4 @@ Longview is a deep value investing community and structured investment research 
 
 ## Language
 
-Research artifacts may be written in Chinese or English based on the user's request. Source notes and citations should preserve original source names and dates.
+Research artifacts should follow the user's requested language. If the user asks for Chinese output, formal reports, source notes, intermediate notes, synthesis files, and task-facing summaries must be written in Chinese. Preserve original source names, paper IDs, repository names, commands, URLs, and technical identifiers when needed for traceability.
