@@ -4,3 +4,4 @@
 {"file": ".trellis/spec/research/ai-automation-framework-standards.md", "reason": "Evaluation dimensions for AI automation frameworks"}
 {"file": ".trellis/spec/research/research-output-standards.md", "reason": "Expected structure for research notes and final reports"}
 {"file": ".trellis/spec/research/raw-material-preservation.md", "reason": "Raw material preservation and source index requirements"}
+{"file": ".trellis/spec/research/firecrawl-tooling.md", "reason": "Default Firecrawl CLI commands for search, scrape, parse, crawl, research, interact, and agent workflows"}

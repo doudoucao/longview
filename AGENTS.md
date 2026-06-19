@@ -27,10 +27,14 @@ Longview is a deep value investing community and structured investment research 
 ## Research Work
 
 - For investment research, AI automation research, market data, regulations, product capabilities, pricing, and anything described as latest or state-of-the-art, verify with current sources before answering.
+- Use Firecrawl as the default tool for external research acquisition: web search, page scrape, local file parse, site crawl/map, arXiv/GitHub research, and browser interaction when needed.
+- Relevant Firecrawl commands include `firecrawl search`, `firecrawl scrape`, `firecrawl parse`, `firecrawl crawl`, `firecrawl map`, `firecrawl research search-papers`, `firecrawl research search-github`, `firecrawl interact`, and `firecrawl agent`.
+- Save important Firecrawl outputs under the active task's `sources/` directory and update the source index. Use `/tmp` only for smoke tests.
 - Prefer primary sources: official docs, filings, regulator materials, research papers, release notes, and source repositories.
 - Separate facts, estimates, opinions, inferences, and recommendations.
 - Do not present personalized investment advice, buy/sell/hold instructions, or unsupported price targets.
 - Use `.trellis/spec/research/` as the default project guidance for research tasks.
+- Never commit `.env`, `FIRECRAWL_API_KEY`, or uncurated `.firecrawl/` cache.
 
 ## Trellis Usage
 
