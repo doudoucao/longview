@@ -61,10 +61,29 @@ firecrawl research search-github "investment research agent workflow financial a
 | S012 | AI Hedge Fund | https://github.com/virattt/ai-hedge-fund | GitHub README | `github-investment-research-agent-workflow.json` | Popular proof-of-concept with role-based investment agents; useful as an example and as a source of patterns to critique. | Low |
 | S013 | FinGAIA | https://github.com/sufe-aiflm-lab/fingaia | GitHub README / benchmark | `github-investment-research-agent-workflow.json` | Benchmark for financial AI agents, emphasizing web browsing, file processing, multimodal, code, and calculation skills. | Medium |
 
+## Complete Raw Record Coverage
+
+Every raw record from the first Firecrawl batch has a note in `sources/notes/per-source-notes.md`.
+
+| Raw record range | Source file | Count | Note coverage |
+| --- | --- | ---: | --- |
+| R001-R005 | `sources/raw/search-agentic-ai-investment-tools-github.json` | 5 | Complete |
+| R006-R010 | `sources/raw/search-ai-equity-research-agent-workflow-blog.json` | 5 | Complete |
+| R011-R020 | `sources/raw/papers-llm-agents-financial-analysis.json` | 10 | Complete |
+| R021-R030 | `sources/raw/github-investment-research-agent-workflow.json` | 10 | Complete |
+
+## Synthesis Artifacts
+
+| File | Purpose |
+| --- | --- |
+| `sources/notes/per-source-notes.md` | One note for every raw source record, including duplicates, empty-body records, and snippet-only results. |
+| `sources/notes/initial-source-notes.md` | Earlier focused notes for the first high-value subset. Kept as historical scratch notes. |
+| `core-synthesis.md` | Standalone extraction of core patterns and early Longview implications. |
+| `research.md` | Comprehensive first report based on the saved source set. |
+
 ## Limitations
 
 - This is an initial collection batch, not an exhaustive literature review.
 - Search results include duplicates and marketing/vendor claims. Later synthesis must verify high-impact claims against primary sources.
 - Reddit results were discovered but not retained as core sources because scraped markdown was unavailable in this run and the evidence value is lower.
-- Some paper dates in Firecrawl results appear future-dated relative to the current task date; later research should verify paper availability and metadata before treating those entries as authoritative.
-
+- Later research should verify paper availability and metadata before treating paper-search entries as authoritative.

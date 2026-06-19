@@ -3,17 +3,17 @@
 ## Checklist
 
 - [ ] Confirm final report audience and depth preference with the user.
-- [ ] Gather current sources from primary documentation, public filings/regulators, research papers, technical blogs, GitHub repositories, reputable market/industry analysis, product docs, and relevant open-source implementations.
-- [ ] Create `sources/index.md` and preserve intermediate raw materials or source notes under the task's `sources/` directory.
-- [ ] Create structured source notes with source type, access date, saved form, claims, data acquisition method, related agent skill/tool, limitations, and confidence.
-- [ ] Create `core-synthesis.md` as a standalone extraction of core patterns, early conclusions, and remaining research gaps from the saved raw materials.
-- [ ] Build a taxonomy of agent automated investment research paradigms.
-- [ ] Build a data acquisition map covering filings, market data, news/events, papers/blogs/GitHub, APIs, scraping/download paths, licensing limits, freshness, and automation difficulty.
-- [ ] Build an agent skills/tooling inventory covering search, scrape/crawl, parse, extract, normalize, validate, model, compare, cite, review, red-team, monitor, and report generation.
-- [ ] Compare at least 12 tools, skills, frameworks, products, or public reference implementations.
-- [ ] Define Longview's evidence rubric and claim-verification workflow.
-- [ ] Propose a Longview operating model and MVP roadmap.
-- [ ] Review for citation coverage, raw-material coverage, stale claims, compliance boundaries, and unmarked inference.
+- [x] Gather current sources from primary documentation, public filings/regulators, research papers, technical blogs, GitHub repositories, reputable market/industry analysis, product docs, and relevant open-source implementations.
+- [x] Create `sources/index.md` and preserve intermediate raw materials or source notes under the task's `sources/` directory.
+- [x] Create structured source notes with source type, access date, saved form, claims, data acquisition method, related agent skill/tool, limitations, and confidence.
+- [x] Create `core-synthesis.md` as a standalone extraction of core patterns, early conclusions, and remaining research gaps from the saved raw materials.
+- [x] Build a taxonomy of agent automated investment research paradigms.
+- [x] Build a data acquisition map covering filings, market data, news/events, papers/blogs/GitHub, APIs, scraping/download paths, licensing limits, freshness, and automation difficulty.
+- [x] Build an agent skills/tooling inventory covering search, scrape/crawl, parse, extract, normalize, validate, model, compare, cite, review, red-team, monitor, and report generation.
+- [x] Compare at least 12 tools, skills, frameworks, products, or public reference implementations.
+- [x] Define Longview's evidence rubric and claim-verification workflow.
+- [x] Propose a Longview operating model and MVP roadmap.
+- [x] Review for citation coverage, raw-material coverage, stale claims, compliance boundaries, and unmarked inference.
 
 ## Validation
 
