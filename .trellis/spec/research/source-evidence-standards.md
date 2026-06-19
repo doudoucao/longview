@@ -4,9 +4,11 @@
 
 Prefer sources in this order when available:
 
-1. Primary sources: official documentation, public filings, regulator publications, standards bodies, original papers, official repositories, and direct product materials.
+1. Primary sources: official documentation, public filings, regulator publications, standards bodies, original papers, official repositories, release notes, API docs, and direct product materials.
 2. High-quality secondary sources: reputable financial media, analyst reports available to the user, academic surveys, and industry reports with transparent methodology.
 3. Community or informal sources: blogs, forums, social posts, and newsletters. Use these for leads or practitioner color, not as sole support for important claims.
+
+For agent automation research, collect across papers, technical blogs, GitHub repositories, official docs, examples, issues/discussions when useful, and public product documentation.
 
 ## Citation Requirements
 
@@ -29,6 +31,20 @@ Use current verification for:
 - statements about adoption, rankings, or "leading" status
 
 When a source is older but still useful, label it as historical context.
+
+## Raw Material Index
+
+For each important source, keep a source note or index entry with:
+
+- stable URL or local path
+- access date
+- source type
+- saved form: markdown, PDF, screenshot, metadata-only, excerpt-only, or link-only
+- reason it matters
+- usage in synthesis
+- copyright/access limitations
+
+If raw content cannot be saved, record why and preserve enough metadata for another analyst to retrieve it.
 
 ## Confidence Labels
 
