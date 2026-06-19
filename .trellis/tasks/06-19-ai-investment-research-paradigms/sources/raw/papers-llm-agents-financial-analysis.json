@@ -1,0 +1,125 @@
+{
+  "success": true,
+  "results": [
+    {
+      "paperId": "3252009230567281514",
+      "primaryId": "arxiv:2502.00415",
+      "ids": {
+        "arxiv": [
+          "2502.00415"
+        ]
+      },
+      "title": "MarketSenseAI 2.0: Enhancing Stock Analysis through LLM Agents",
+      "abstract": "MarketSenseAI is a novel framework for holistic stock analysis which leverages Large Language Models (LLMs) to process financial news, historical prices, company fundamentals and the macroeconomic environment to support decision making in stock analysis and selection. In this paper, we present the latest advancements on MarketSenseAI, driven by rapid technological expansion in LLMs. Through a novel architecture combining Retrieval-Augmented Generation and LLM agents, the framework processes SEC filings and earnings calls, while enriching macroeconomic analysis through systematic processing of diverse institutional reports. We demonstrate a significant improvement in fundamental analysis accuracy over the previous version. Empirical evaluation on S&P 100 stocks over two years (2023-2024) shows MarketSenseAI achieving cumulative returns of 125.9% compared to the index return of 73.5%, while maintaining comparable risk profiles. Further validation on S&P 500 stocks during 2024 demonstrates the framework's scalability, delivering a 33.8% higher Sortino ratio than the market. This work marks a significant advancement in applying LLM technology to financial analysis, offering insights into the robustness of LLM-driven investment strategies.",
+      "score": 0.9824500775551755
+    },
+    {
+      "paperId": "320155559631240019",
+      "primaryId": "arxiv:2411.08804",
+      "ids": {
+        "arxiv": [
+          "2411.08804"
+        ]
+      },
+      "title": "FinRobot: AI Agent for Equity Research and Valuation with Large Language Models",
+      "abstract": "As financial markets grow increasingly complex, there is a rising need for automated tools that can effectively assist human analysts in equity research, particularly within sell-side research. While Generative AI (GenAI) has attracted significant attention in this field, existing AI solutions often fall short due to their narrow focus on technical factors and limited capacity for discretionary judgment. These limitations hinder their ability to adapt to new data in real-time and accurately assess risks, which diminishes their practical value for investors. This paper presents FinRobot, the first AI agent framework specifically designed for equity research. FinRobot employs a multi-agent Chain of Thought (CoT) system, integrating both quantitative and qualitative analyses to emulate the comprehensive reasoning of a human analyst. The system is structured around three specialized agents: the Data-CoT Agent, which aggregates diverse data sources for robust financial integration; the Concept-CoT Agent, which mimics an analysts reasoning to generate actionable insights; and the Thesis-CoT Agent, which synthesizes these insights into a coherent investment thesis and report. FinRobot provides thorough company analysis supported by precise numerical data, industry-appropriate valuation metrics, and realistic risk assessments. Its dynamically updatable data pipeline ensures that research remains timely and relevant, adapting seamlessly to new financial information. Unlike existing automated research tools, such as CapitalCube and Wright Reports, FinRobot delivers insights comparable to those produced by major brokerage firms and fundamental research vendors. We open-source FinRobot at https://github. com/AI4Finance-Foundation/FinRobot.",
+      "score": 0.9775772226349374
+    },
+    {
+      "paperId": "129144509202463451",
+      "primaryId": "arxiv:2510.05533",
+      "ids": {
+        "arxiv": [
+          "2510.05533"
+        ]
+      },
+      "title": "The New Quant: A Survey of Large Language Models in Financial Prediction and Trading",
+      "abstract": "Large language models are reshaping quantitative investing by turning unstructured financial information into evidence-grounded signals and executable decisions. This survey synthesizes research with a focus on equity return prediction and trading, consolidating insights from domain surveys and more than fifty primary studies. We propose a task-centered taxonomy that spans sentiment and event extraction, numerical and economic reasoning, multimodal understanding, retrieval-augmented generation, time series prompting, and agentic systems that coordinate tools for research, backtesting, and execution. We review empirical evidence for predictability, highlight design patterns that improve faithfulness such as retrieval first prompting and tool-verified numerics, and explain how signals feed portfolio construction under exposure, turnover, and capacity controls. We assess benchmarks and datasets for prediction and trading and outline desiderata-for time safe and economically meaningful evaluation that reports costs, latency, and capacity. We analyze challenges that matter in production, including temporal leakage, hallucination, data coverage and structure, deployment economics, interpretability, governance, and safety. The survey closes with recommendations for standardizing evaluation, building auditable pipelines, and advancing multilingual and cross-market research so that language-driven systems deliver robust and risk-controlled performance in practice.",
+      "score": 0.9764546509396596
+    },
+    {
+      "paperId": "240207698822238448",
+      "primaryId": "arxiv:2508.00828",
+      "ids": {
+        "arxiv": [
+          "2508.00828"
+        ]
+      },
+      "title": "Finance Agent Benchmark: Benchmarking LLMs on Real-world Financial Research Tasks",
+      "abstract": "Artificial Intelligence (AI) technology has emerged as a transformative force in financial analysis and the finance industry, though significant questions remain about the full capabilities of Large Language Model (LLM) agents in this domain. We present the Finance Agent Benchmark, featuring challenging and diverse real-world finance research problems that require LLMs to perform complex analysis using recent SEC filings. We construct the benchmark using a taxonomy of nine financial task categories, developed in consultation with experts from banks, hedge funds, and private equity firms. The dataset includes 537 expert-authored questions covering tasks from information retrieval to complex financial modeling, each validated through a rigorous review process to ensure accuracy and relevance. Moreover, we implement an agentic harness that equips LLMs with tools sufficient to produce accurate responses, including Google Search and EDGAR database access. Overall, the Finance Agent Benchmark provides a comprehensive testbed for measuring the progress of LLM-driven finance agents. Our evaluation reveals significant limitations in current AI capabilities - even the best-performing model (OpenAI o3) achieved only 46.8% accuracy at an average cost of 3.79 per query. This underscores the need for further advancements before reliable deployment in high-stakes finance settings.",
+      "score": 0.9758729785823308
+    },
+    {
+      "paperId": "8901765217709552647",
+      "primaryId": "arxiv:2501.12399",
+      "ids": {
+        "arxiv": [
+          "2501.12399"
+        ]
+      },
+      "title": "FinSphere, a Real-Time Stock Analysis Agent Powered by Instruction-Tuned LLMs and Domain Tools",
+      "abstract": "Current financial large language models (FinLLMs) struggle with two critical limitations: the absence of objective evaluation metrics to assess the quality of stock analysis reports and a lack of depth in stock analysis, which impedes their ability to generate professional-grade insights. To address these challenges, this paper introduces FinSphere, a stock analysis agent, along with three major contributions: (1) AnalyScore, a systematic evaluation framework for assessing stock analysis quality, (2) Stocksis, a dataset curated by industry experts to enhance LLMs' stock analysis capabilities, and (3) FinSphere, an AI agent that can generate high-quality stock analysis reports in response to user queries. Experiments demonstrate that FinSphere achieves superior performance compared to both general and domain-specific LLMs, as well as existing agent-based systems, even when they are enhanced with real-time data access and few-shot guidance. The integrated framework, which combines real-time data feeds, quantitative tools, and an instruction-tuned LLM, yields substantial improvements in both analytical quality and practical applicability for real-world stock analysis.",
+      "score": 0.9758729785823308
+    },
+    {
+      "paperId": "1969446917524048795",
+      "primaryId": "arxiv:2602.00082",
+      "ids": {
+        "arxiv": [
+          "2602.00082"
+        ]
+      },
+      "title": "Design and Empirical Study of a Large Language Model-Based Multi-Agent Investment System for Chinese Public REITs",
+      "abstract": "This study addresses the low-volatility Chinese Public Real Estate Investment Trusts (REITs) market, proposing a large language model (LLM)-driven trading framework based on multi-agent collaboration. The system constructs four types of analytical agents-announcement, event, price momentum, and market-each conducting analysis from different dimensions; then the prediction agent integrates these multi-source signals to output directional probability distributions across multiple time horizons, then the decision agent generates discrete position adjustment signals based on the prediction results and risk control constraints, thereby forming a closed loop of analysis-prediction-decision-execution. This study further compares two prediction model pathways: for the prediction agent, directly calling the general-purpose large model DeepSeek-R1 versus using a specialized small model Qwen3-8B fine-tuned via supervised fine-tuning and reinforcement learning alignment. In the backtest from October 2024 to October 2025, both agent-based strategies significantly outperformed the buy-and-hold benchmark in terms of cumulative return, Sharpe ratio, and maximum drawdown. The results indicate that the multi-agent framework can effectively enhance the risk-adjusted return of REITs trading, and the fine-tuned small model performs close to or even better than the general-purpose large model in some scenarios.",
+      "score": 0.9746672967731284
+    },
+    {
+      "paperId": "7274758372502812234",
+      "primaryId": "arxiv:2602.23330",
+      "ids": {
+        "arxiv": [
+          "2602.23330"
+        ]
+      },
+      "title": "Toward Expert Investment Teams:A Multi-Agent LLM System with Fine-Grained Trading Tasks",
+      "abstract": "The advancement of large language models (LLMs) has accelerated the development of autonomous financial trading systems. While mainstream approaches deploy multi-agent systems mimicking analyst and manager roles, they often rely on abstract instructions that overlook the intricacies of real-world workflows, which can lead to degraded inference performance and less transparent decision-making. Therefore, we propose a multi-agent LLM trading framework that explicitly decomposes investment analysis into fine-grained tasks, rather than providing coarse-grained instructions. We evaluate the proposed framework using Japanese stock data, including prices, financial statements, news, and macro information, under a leakage-controlled backtesting setting. Experimental results show that fine-grained task decomposition significantly improves risk-adjusted returns compared to conventional coarse-grained designs. Crucially, further analysis of intermediate agent outputs suggests that alignment between analytical outputs and downstream decision preferences is a critical driver of system performance. Moreover, we conduct standard portfolio optimization, exploiting low correlation with the stock index and the variance of each system's output. This approach achieves superior performance. These findings contribute to the design of agent structure and task configuration when applying LLM agents to trading systems in practical settings.",
+      "score": 0.9740426428022032
+    },
+    {
+      "paperId": "8072398385952741059",
+      "primaryId": "arxiv:2510.23032",
+      "ids": {
+        "arxiv": [
+          "2510.23032"
+        ]
+      },
+      "title": "P1GPT: a multi-agent LLM workflow module for multi-modal financial information analysis",
+      "abstract": "Recent advances in large language models (LLMs) have enabled multi-agent reasoning systems capable of collaborative decision-making. However, in financial analysis, most frameworks remain narrowly focused on either isolated single-agent predictors or loosely connected analyst ensembles, and they lack a coherent reasoning workflow that unifies diverse data modalities. We introduce P1GPT, a layered multi-agent LLM framework for multi-modal financial information analysis and interpretable trading decision support. Unlike prior systems that emulate trading teams through role simulation, P1GPT implements a structured reasoning pipeline that systematically fuses technical, fundamental, and news-based insights through coordinated agent communication and integration-time synthesis. Backtesting on multi-modal datasets across major U.S. equities demonstrates that P1GPT achieves superior cumulative and risk-adjusted returns, maintains low drawdowns, and provides transparent causal rationales. These findings suggest that structured reasoning workflows, rather than agent role imitation, offer a scalable path toward explainable and trustworthy financial AI systems.",
+      "score": 0.973403006423134
+    },
+    {
+      "paperId": "6963671902463686911",
+      "primaryId": "arxiv:2603.08704",
+      "ids": {
+        "arxiv": [
+          "2603.08704"
+        ]
+      },
+      "title": "Evaluating Financial Intelligence in Large Language Models: Benchmarking SuperInvesting AI with LLM Engines",
+      "abstract": "Large language models are increasingly used for financial analysis and investment research, yet systematic evaluation of their financial reasoning capabilities remains limited. In this work, we introduce the AI Financial Intelligence Benchmark (AFIB), a multi-dimensional evaluation framework designed to assess financial analysis capabilities across five dimensions: factual accuracy, analytical completeness, data recency, model consistency, and failure patterns. We evaluate five AI systems: GPT, Gemini, Perplexity, Claude, and SuperInvesting, using a dataset of 95+ structured financial analysis questions derived from real-world equity research tasks. The results reveal substantial differences in performance across models. Within this benchmark setting, SuperInvesting achieves the highest aggregate performance, with an average factual accuracy score of 8.96/10 and the highest completeness score of 56.65/70, while also demonstrating the lowest hallucination rate among evaluated systems. Retrieval-oriented systems such as Perplexity perform strongly on data recency tasks due to live information access but exhibit weaker analytical synthesis and consistency. Overall, the results highlight that financial intelligence in large language models is inherently multi-dimensional, and systems that combine structured financial data access with analytical reasoning capabilities provide the most reliable performance for complex investment research workflows.",
+      "score": 0.972748049229784
+    },
+    {
+      "paperId": "6677900132274095573",
+      "primaryId": "arxiv:2401.06164",
+      "ids": {
+        "arxiv": [
+          "2401.06164"
+        ]
+      },
+      "title": "Multimodal Gen-AI for Fundamental Investment Research",
+      "abstract": "This report outlines a transformative initiative in the financial investment industry, where the conventional decision-making process, laden with labor-intensive tasks such as sifting through voluminous documents, is being reimagined. Leveraging language models, our experiments aim to automate information summarization and investment idea generation. We seek to evaluate the effectiveness of fine-tuning methods on a base model (Llama2) to achieve specific application-level goals, including providing insights into the impact of events on companies and sectors, understanding market condition relationships, generating investor-aligned investment ideas, and formatting results with stock recommendations and detailed explanations. Through state-of-the-art generative modeling techniques, the ultimate objective is to develop an AI agent prototype, liberating human investors from repetitive tasks and allowing a focus on high-level strategic thinking. The project encompasses a diverse corpus dataset, including research reports, investment memos, market news, and extensive time-series market data. We conducted three experiments applying unsupervised and supervised LoRA fine-tuning on the llama2₇bhfchat as the base model, as well as instruction fine-tuning on the GPT3.5 model. Statistical and human evaluations both show that the fine-tuned versions perform better in solving text modeling, summarization, reasoning, and finance domain questions, demonstrating a pivotal step towards enhancing decision-making processes in the financial domain. Code implementation for the project can be found on GitHub: https://github.com/Firenze11/financelm.",
+      "score": 0.972748049229784
+    }
+  ]
+}
