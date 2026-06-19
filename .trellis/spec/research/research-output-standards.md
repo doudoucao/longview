@@ -19,6 +19,19 @@ Research reports should include:
 13. Open questions and follow-up experiments
 14. References
 
+## Required Task Artifacts
+
+For substantial research tasks, maintain separate artifacts instead of mixing everything into one report:
+
+- `sources/index.md`: raw-material inventory, commands used, source metadata, access dates, saved forms, and limitations.
+- `sources/raw/`: Firecrawl or other raw captures when allowed.
+- `sources/notes/`: source-level notes and evidence annotations.
+- `sources/extracts/`: structured extractions, normalized tables, parsed documents, or intermediate datasets.
+- `core-synthesis.md`: a standalone synthesis of the core findings, patterns, early conclusions, and remaining research gaps.
+- `research.md`: final report, written only after the raw material index and core synthesis are coherent enough to support it.
+
+The `core-synthesis.md` file must not replace raw materials or source notes. It is the bridge between saved evidence and the final report.
+
 ## Notes Structure
 
 Use structured notes for important sources:
@@ -50,6 +63,7 @@ For agent automation investment research tasks, include:
 - Separate facts from interpretation.
 - Avoid vague claims such as "best", "most advanced", or "industry-leading" unless the ranking basis is defined.
 - Preserve raw-material links and source notes before writing high-level synthesis.
+- Write a separate `core-synthesis.md` for core pattern extraction before drafting the final `research.md`.
 - Use tables for comparisons and concise prose for synthesis.
 - State assumptions explicitly.
 - Preserve uncertainty instead of smoothing it away.
@@ -60,6 +74,7 @@ Before considering a report done:
 
 - Every material claim has support.
 - Intermediate raw materials or source notes are saved and indexed.
+- `core-synthesis.md` exists and points back to the relevant source index or source notes.
 - Current claims were checked against current sources.
 - Contradictions or weak evidence are visible.
 - Recommendations target Longview's product/research process, not a reader's personal portfolio.

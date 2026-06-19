@@ -9,6 +9,7 @@ Research tasks must preserve intermediate raw materials so another analyst or ag
 For research tasks, prefer this structure under the active task directory:
 
 ```text
+core-synthesis.md
 sources/
   index.md
   raw/
@@ -20,6 +21,7 @@ sources/
 - `sources/raw/`: saved raw materials when allowed, such as markdown exports, PDFs, screenshots, or cloned metadata snapshots.
 - `sources/notes/`: structured source notes written by the agent.
 - `sources/extracts/`: structured extractions, tables, schemas, or normalized snippets.
+- `core-synthesis.md`: standalone extraction of core findings and reusable patterns from the raw source set.
 
 Do not save secrets, credentials, private account data, or unauthorized paywalled content.
 
@@ -58,10 +60,13 @@ Before writing synthesis, the agent should have:
 - explicit labels for sources that could not be saved
 - enough metadata for another analyst to retrieve or verify each source
 
+After that, write a separate `core-synthesis.md` before drafting the final report. It should summarize core patterns, early conclusions, tables worth preserving, and remaining research gaps while linking back to `sources/index.md`.
+
 ## Review Checklist
 
 - Can another analyst find every source used in the final report?
 - Are raw materials or notes separated from synthesis?
+- Does `core-synthesis.md` exist separately from raw notes and the final report?
 - Are access, copyright, and paywall limits documented?
 - Are GitHub repositories pinned to a commit, release, or access date where possible?
 - Are papers and blogs clearly labeled as evidence, opinion, or inspiration?

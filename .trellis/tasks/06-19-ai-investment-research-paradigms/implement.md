@@ -6,6 +6,7 @@
 - [ ] Gather current sources from primary documentation, public filings/regulators, research papers, technical blogs, GitHub repositories, reputable market/industry analysis, product docs, and relevant open-source implementations.
 - [ ] Create `sources/index.md` and preserve intermediate raw materials or source notes under the task's `sources/` directory.
 - [ ] Create structured source notes with source type, access date, saved form, claims, data acquisition method, related agent skill/tool, limitations, and confidence.
+- [ ] Create `core-synthesis.md` as a standalone extraction of core patterns, early conclusions, and remaining research gaps from the saved raw materials.
 - [ ] Build a taxonomy of agent automated investment research paradigms.
 - [ ] Build a data acquisition map covering filings, market data, news/events, papers/blogs/GitHub, APIs, scraping/download paths, licensing limits, freshness, and automation difficulty.
 - [ ] Build an agent skills/tooling inventory covering search, scrape/crawl, parse, extract, normalize, validate, model, compare, cite, review, red-team, monitor, and report generation.
@@ -19,6 +20,7 @@
 - Every material "current/latest/leading" claim has a recent source or is downgraded to a dated observation.
 - Every framework/product comparison cites an original or authoritative source where possible.
 - Every important source has a source-index entry and either a saved raw artifact, source note, or explicit reason raw content was not saved.
+- `core-synthesis.md` exists separately from `sources/index.md` and references the saved source set.
 - The final report includes data acquisition, skills/tooling, and workflow automation tables.
 - The final report separates product recommendations from investment advice.
 - The report includes explicit limitations and unresolved questions.
