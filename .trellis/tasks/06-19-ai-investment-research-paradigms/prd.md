@@ -1,77 +1,77 @@
-# Research AI Automated Investment Research Paradigms
+# 调研 AI 自动化投资研究范式
 
-## Goal
+## 目标
 
-Research state-of-the-art AI automated investment research paradigms, frameworks, workflows, evidence standards, and implementation patterns for Longview, a deep value investing community and structured investment research platform.
+调研全球领先的 AI 自动化投资研究范式、框架、工作流、证据标准和实现模式，为 Longview 这个深度价值投资社区 / 结构化投研平台提供方向判断。
 
-The output should help define how Longview can use AI agents, data pipelines, source verification, and human review to produce rigorous investment research without presenting automated outputs as personalized investment advice.
+本任务的产出应帮助 Longview 定义：如何使用 AI agent、数据管线、来源验证和人工审核，生产严谨、可追溯的投资研究内容，同时避免把自动化输出包装成个性化投资建议。
 
-## Confirmed Facts
+## 已确认事实
 
-- Repository positioning from `README.md`: Longview is a "deep value investing community / structured investment research platform" (`深度价值投资社区 / 结构化投研平台方案仓库`).
-- The repository currently has Trellis scaffolding and no application source code, so this task should create research guidance and planning artifacts before implementation work.
-- The task is research-heavy and time-sensitive: current AI agent patterns, investment research tooling, market data APIs, regulatory expectations, and public examples may change quickly.
-- Financial research is high-stakes. Outputs must distinguish facts, estimates, opinions, and model-generated inferences.
+- `README.md` 中的仓库定位是：Longview 是“深度价值投资社区 / 结构化投研平台方案仓库”。
+- 当前仓库只有 Trellis 初始化结构，还没有应用代码；因此本任务应先建立研究规范和规划产物，再进入后续实现。
+- 本任务偏重调研，且信息时效性强：AI agent 模式、投研工具、市场数据 API、监管要求和公开案例都可能快速变化。
+- 金融研究属于高风险信息场景，产出必须区分事实、估计、观点和模型推断。
 
-## Requirements
+## 需求
 
-- Map leading AI-enabled investment research paradigms:
-  - agentic research workflows
-  - retrieval-augmented research and knowledge bases
-  - SEC/filing-driven fundamental analysis pipelines
-  - market/news/event monitoring systems
-  - multi-agent debate, reviewer, and red-team loops
-  - human-in-the-loop research approval workflows
-  - portfolio/risk-aware research orchestration
-- Compare notable frameworks and reference implementations, including open-source agent frameworks, research orchestration patterns, data extraction pipelines, and investment research products where public information is available.
-- Identify evidence standards Longview should require for AI-produced investment research:
-  - source hierarchy
-  - citation requirements
-  - claim verification
-  - freshness checks
-  - uncertainty labeling
-  - audit trail retention
-- Define a practical research operating model for Longview:
-  - research object model
-  - source ingestion strategy
-  - analyst/agent roles
-  - quality gates
-  - compliance and disclaimer boundaries
-  - MVP workflow candidates
-- Produce actionable recommendations, but do not produce specific buy/sell/hold recommendations for securities as part of this task.
+- 梳理领先的 AI 投研范式：
+  - agentic research 工作流
+  - RAG 与投研知识库
+  - 基于 SEC / 财报 / 公告的基本面分析管线
+  - 市场、新闻、事件监控系统
+  - 多 agent 辩论、reviewer 和 red-team 流程
+  - human-in-the-loop 研究审核机制
+  - 结合组合与风险约束的研究编排
+- 对比代表性框架和参考实现，包括开源 agent 框架、研究编排模式、数据抽取管线，以及公开资料可验证的投研产品。
+- 定义 Longview 对 AI 投研内容应采用的证据标准：
+  - 来源层级
+  - 引用要求
+  - 声明验证
+  - 时效性检查
+  - 不确定性标注
+  - 审计轨迹保留
+- 定义适合 Longview 的可执行研究运营模型：
+  - 研究对象模型
+  - 来源摄取策略
+  - analyst / agent 角色分工
+  - 质量门禁
+  - 合规和免责声明边界
+  - MVP 工作流候选方案
+- 输出可执行建议，但本任务不产出任何具体证券的买入、卖出或持有建议。
 
-## Constraints
+## 约束
 
-- Use current sources. Because the topic is fast-moving, the research phase must browse or otherwise verify up-to-date information before making claims about "latest", "leading", or "state-of-the-art" approaches.
-- Prefer primary sources when available: official documentation, public filings, regulator materials, research papers, reputable company materials, and original project repositories.
-- Clearly label source type and confidence. Separate direct evidence from inference.
-- Avoid presenting research as personalized investment advice.
-- Preserve user trust by explaining data gaps, coverage limits, and assumptions.
+- 必须使用当前来源。由于主题变化快，在描述“最新”“领先”“state-of-the-art”方案前，必须联网或通过其他方式验证最新信息。
+- 优先使用一手来源：官方文档、公开披露文件、监管材料、研究论文、公司官方材料和原始代码仓库。
+- 必须清楚标注来源类型和置信度，并区分直接证据与推断。
+- 避免把研究内容写成个性化投资建议。
+- 必须解释数据缺口、覆盖范围限制和关键假设，以维持用户信任。
 
-## Acceptance Criteria
+## 验收标准
 
-- [ ] `research.md` or equivalent final report explains the leading AI automated investment research paradigms and where each is strongest or weak.
-- [ ] The report compares at least 8 relevant frameworks, products, or public reference implementations with citations.
-- [ ] The report includes a source-quality rubric and a claim-verification workflow suitable for financial research.
-- [ ] The report proposes a Longview-specific target operating model for automated investment research.
-- [ ] The report includes an MVP roadmap with clear first experiments and non-goals.
-- [ ] The report explicitly covers compliance and safety boundaries, including non-advice language and human review.
-- [ ] Every material claim about current tools, products, laws, market structure, or model capability is sourced or explicitly marked as an inference.
+- [ ] `research.md` 或等价最终报告解释领先的 AI 自动化投资研究范式，并说明各自适用场景、优势和弱点。
+- [ ] 报告至少对比 8 个相关框架、产品或公开参考实现，并提供引用来源。
+- [ ] 报告包含适合金融研究场景的来源质量评分标准和声明验证流程。
+- [ ] 报告提出 Longview 专属的自动化投研目标运营模型。
+- [ ] 报告包含 MVP 路线图，明确第一批实验和非目标。
+- [ ] 报告明确覆盖合规和安全边界，包括非投资建议表述和人工审核机制。
+- [ ] 所有关于当前工具、产品、法律、市场结构或模型能力的重要声明都有来源支持，或明确标记为推断。
 
-## Out of Scope
+## 非目标
 
-- Building the full research platform.
-- Producing investment recommendations for any specific security.
-- Backtesting a trading strategy.
-- Scraping paywalled or access-controlled data without permission.
-- Making claims about regulatory compliance without citing current authoritative sources.
+- 构建完整研究平台。
+- 为任何具体证券产出投资建议。
+- 回测交易策略。
+- 未经授权抓取付费墙或访问受控数据。
+- 在没有当前权威来源支持的情况下，对监管合规作结论性判断。
 
-## Open Questions
+## 待决问题
 
-- Should the first final report optimize for a product strategy audience, an engineering architecture audience, or an investment research operations audience?
+- 第一版最终报告应优先服务哪类读者：产品战略、工程架构，还是投研运营？
 
-## Notes
+## 备注
 
-- Keep `prd.md` focused on requirements, constraints, and acceptance criteria.
-- Lightweight tasks can remain PRD-only.
-- For complex tasks, add `design.md` for technical design and `implement.md` for execution planning before `task.py start`.
+- `prd.md` 聚焦需求、约束和验收标准。
+- 轻量任务可以只保留 PRD。
+- 复杂任务在 `task.py start` 前应补充 `design.md` 和 `implement.md`。
